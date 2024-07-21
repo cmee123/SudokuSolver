@@ -1,0 +1,462 @@
+WindowManager:
+    HomeWindow:
+    InputWindow:
+    SolveWindow:
+
+<GridLabel@MDLabel>
+    halign: "center"
+    canvas.before:
+        Color:
+            rgba: (1,1,1,1)
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+<GridLabelGray@MDLabel>
+    halign: "center"
+    canvas.before:
+        Color:
+            rgba: (205/255, 207/255, 209/255, 1)
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+<GridInput@TextInput>
+    multiline: False
+    background_color: (1,1,1,1)
+    cursor_color: (0,0,0,1)
+    halign: "center"
+    font_size: 25
+
+<GridInputGray@TextInput>
+    multiline: False
+    background_color: (205/255, 207/255, 209/255, 1)
+    cursor_color: (0,0,0,1)
+    halign: "center"
+    font_size: 25
+
+<InputBoard@GridLayout>
+    size_hint: None, None
+    size: 500, 500
+    cols: 9
+    padding: 3
+    spacing: 1
+    canvas.before:
+        Color:
+            rgba: (0,0,0,1)
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInput:
+
+    GridInput:
+
+    GridInput:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInput:
+
+    GridInput:
+
+    GridInput:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInput:
+
+    GridInput:
+
+    GridInput:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+
+    GridInput:
+
+    GridInput:
+
+    GridInput:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInput:
+
+    GridInput:
+
+    GridInput:
+
+
+    GridInput:
+
+    GridInput:
+
+    GridInput:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInput:
+
+    GridInput:
+
+    GridInput:
+
+
+    GridInput:
+
+    GridInput:
+
+    GridInput:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInput:
+
+    GridInput:
+
+    GridInput:
+
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInput:
+
+    GridInput:
+
+    GridInput:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInput:
+
+    GridInput:
+
+    GridInput:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInput:
+
+    GridInput:
+
+    GridInput:
+
+    GridInputGray:
+
+    GridInputGray:
+
+    GridInputGray:
+
+
+<Board@GridLayout>
+    size_hint: None, None
+    size: 500, 500
+    cols: 9
+    padding: 3
+    spacing: 3
+    canvas.before:
+        Color:
+            rgba: (0,0,0,1)
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabel:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+    GridLabelGray:
+        text: "9"
+
+<HomeWindow>
+    name: "home"
+    FloatLayout:
+        size: root.width, root.height
+        MDLabel:
+            bold: True
+            text: "Sudoku Solver"
+            font_size: 45
+            halign: "center"
+            pos_hint: {"center_x": 0.5, "center_y": 0.6}
+        MDFloatingActionButton:
+            pos_hint: {"center_x": 0.5, "center_y": 0.4}
+            icon: "play"
+            on_press:
+                app.root.current = "input"
+                root.manager.transition.direction = "left"
+
+<InputWindow>
+    name: "input"
+    FloatLayout:
+        size: root.width, root.height
+        InputBoard:
+            id: input_board
+            pos_hint: {"center_x": 0.5, "center_y": 0.55}
+        MDRoundFlatButton:
+            text: "Next"
+            pos_hint: {"center_x": 0.5, "center_y": 0.075}
+            on_press:
+                root.get_inputs()
+                root.clear_inputs()
+    MDFloatingActionButton:
+        icon: "home"
+        pos_hint: {"center_x": 0.125, "center_y": 0.075}
+        on_press:
+            root.clear_inputs()
+            app.root.current = "home"
+            root.manager.transition.direction = "right"
+
+<SolveWindow>
+    name: "solve"
+    on_enter: root.start_process()
+    FloatLayout:
+        size: root.width, root.height
+        Board:
+            id: solve_board
+            pos_hint: {"center_x": 0.5, "center_y": 0.55}
+        MDRoundFlatButton:
+            text: "Solve"
+            pos_hint: {"center_x": 0.5, "center_y": 0.075}
+            on_press: root.start_process(solve=True)
+        MDFloatingActionButton:
+            pos_hint: {"center_x": 0.125, "center_y": 0.075}
+            icon: "home"
+            on_press:
+                app.root.current = "home"
+                root.manager.transition.direction = "right"
+
+
+
